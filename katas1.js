@@ -1,10 +1,11 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+        for (let contador = 1; contador < 21; contador++){
+        console.log(contador)
+        }
 }
+
+        console.log(oneThroughTwenty());
+
 
 //call function oneThroughTwenty
 
