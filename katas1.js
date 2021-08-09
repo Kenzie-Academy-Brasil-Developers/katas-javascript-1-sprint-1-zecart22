@@ -1,70 +1,76 @@
 function oneThroughTwenty() {
+	let resultado = []
         for (let contador = 1; contador < 21; contador++){
         console.log(contador)
         }
+	return resultado;
 }
 
         console.log(oneThroughTwenty());
-
-
-//call function oneThroughTwenty
+        //call function oneThroughTwenty
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
-}
+	let  resultado = []
+  	for (let contador = 2; contador < 22; contador = contador +  2){
+	console.log(contador)
 
-//call function evensToTwenty
+	}
+  		return resultado;
+}
+	console.log(evensToTwenty());
+	//call function evensToTwenty
 
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  	let resultado = []
+	for (let contador = 1; contador < 22; contador = contador + 2){
+	console.log(contador)
+}  
+  		return resultado; 
    
 }
-
-//call function oddsToTwenty
+	console.log(oddsToTwenty())
+        //call function oddsToTwenty
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+	  let resultado = []
+	  for(let contador = 5; contador < 105; contador = contador + 5){
+	  console.log(contador)
+}
+		return resultado;		
 
 }
-
-//call function multiplesOfFive
+	console.log(multiplesOfFive())
+	//call function multiplesOfFive
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//resolvendo 
     
 }
 
 //call function squareNumbers
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let resultado = []
+        for (let contador = 20; contador > 0; contador--){
+        console.log(contador)
+        }
+        return resultado;
 }
 
-//call function countingBackwards
+	console.log(countingBackwards())
+	//call function countingBackwards
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let resultado []
+	for (contador = 20, contador > 0, contador = contador - 2 ){
+	console.log(contador)
+	}
+	return resultado
 }
-
+	console.log(evenNumbersBack)
 //call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
