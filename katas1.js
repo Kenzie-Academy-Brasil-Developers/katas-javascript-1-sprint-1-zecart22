@@ -7,7 +7,7 @@ function oneThroughTwenty() {
 }
 
         console.log(oneThroughTwenty());
-        //call function oneThroughTwenty
+        //1 call function oneThroughTwenty
 
 function evensToTwenty() {
     
@@ -19,7 +19,7 @@ function evensToTwenty() {
   		return resultado;
 }
 	console.log(evensToTwenty());
-	//call function evensToTwenty
+	//2 call function evensToTwenty
 
 function oddsToTwenty() {
   	let resultado = []
@@ -30,7 +30,7 @@ function oddsToTwenty() {
    
 }
 	console.log(oddsToTwenty())
-        //call function oddsToTwenty
+        //3 call function oddsToTwenty
 
 function multiplesOfFive() {
     
@@ -42,15 +42,15 @@ function multiplesOfFive() {
 
 }
 	console.log(multiplesOfFive())
-	//call function multiplesOfFive
+	//4 call function multiplesOfFive
 
 function squareNumbers() {
     
-//resolvendo 
+//item 5 resolvendo 
     
 }
 
-//call function squareNumbers
+//1 call function squareNumbers
 
 function countingBackwards() {
   let resultado = []
@@ -61,7 +61,7 @@ function countingBackwards() {
 }
 
 	console.log(countingBackwards())
-	//call function countingBackwards
+	//2 call function countingBackwards
 
 function evenNumbersBackwards() {
     let resultado []
@@ -71,16 +71,21 @@ function evenNumbersBackwards() {
 	return resultado
 }
 	console.log(evenNumbersBack)
-//call function evenNumbersBackwards
+	//3 call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+   let resultado = []
+          for(let contador = 100; contador > 0; contador = contador - 5){
+          console.log(contador)
+	}
+                return resultado;
 }
+        console.log(oddNumbersBackwards())
 
-//call function oddNumbersBackwards
+
+
+	//4 call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
     
@@ -93,9 +98,7 @@ function multiplesOfFiveBackwards() {
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+	//item 10 resolvendo
 }
 
 //call function squareNumbersBackwards
