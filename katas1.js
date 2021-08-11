@@ -1,5 +1,5 @@
 function oneThroughTwenty() {
-	let resultado = []
+	let resultado
         for (let contador = 1; contador < 21; contador++){
         console.log(contador)
         }
@@ -11,7 +11,7 @@ function oneThroughTwenty() {
 
 function evensToTwenty() {
     
-	let  resultado = []
+	let  resultado
   	for (let contador = 2; contador < 22; contador = contador +  2){
 	console.log(contador)
 
@@ -22,7 +22,7 @@ function evensToTwenty() {
 	//2 call function evensToTwenty
 
 function oddsToTwenty() {
-  	let resultado = []
+  	let resultado
 	for (let contador = 1; contador < 22; contador = contador + 2){
 	console.log(contador)
 }  
@@ -34,7 +34,7 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
     
-	  let resultado = []
+	  let resultado
 	  for(let contador = 5; contador < 105; contador = contador + 5){
 	  console.log(contador)
 }
@@ -46,7 +46,7 @@ function multiplesOfFive() {
 
 function squareNumbers(numero) {    
 //function quadradaPerfeita(numero){
-     let resultado = []    
+     let resultado    
      for (let contador = numero; contador < 100; contador++){
           let raizQuadrada = (Math.sqrt(contador));
           let raizPerfeita = (raizQuadrada ^ 0) === raizQuadrada;
@@ -60,7 +60,7 @@ function squareNumbers(numero) {
     	//5 call function squareNumbers
 
 function countingBackwards() {
-  let resultado = []
+  let resultado
         for (let contador = 20; contador > 0; contador--){
         console.log(contador)
         }
@@ -71,7 +71,7 @@ function countingBackwards() {
 	//6 call function countingBackwards
 
 function evenNumbersBackwards() {
-    let resultado []
+    let resultado
 	for (contador = 20, contador > 0, contador = contador - 2 ){
 	console.log(contador)
 	}
@@ -81,7 +81,7 @@ function evenNumbersBackwards() {
 	//7 call function evenNumbersBackwards
 
 function oddNumbersBackwards() {  
-   let resultado = []
+   let resultado 
           for(let contador = 21; contador > 0; contador = contador - 2){
           console.log(contador)
 	}
@@ -91,7 +91,7 @@ function oddNumbersBackwards() {
 	//8 call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
-      	 let resultado = []
+      	 let resultado
           for(let contador = 100; contador > 0; contador = contador - 5){
           console.log(contador)
         }
@@ -101,7 +101,7 @@ function multiplesOfFiveBackwards() {
 	//9  call function multiplesOfFiveBackwards
 
 function squareNumbersBackwards(100) {
-    let resultado = []    
+    let resultado    
      for (let contador = numero; contador > 0; contador--){
           let raizQuadrada = (Math.sqrt(contador));
           let raizPerfeita = (raizQuadrada ^ 0) === raizQuadrada;
