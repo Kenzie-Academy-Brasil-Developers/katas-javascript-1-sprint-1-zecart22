@@ -1,7 +1,7 @@
 function oneThroughTwenty() {
-	let resultado
-        for (let contador = 1; contador < 21; contador++){
-        console.log(contador)
+	let resultado = []
+        for (let i = 1; i < 21; i++){
+	resultado.push(i)
         }
 	return resultado;
 }
@@ -11,9 +11,9 @@ function oneThroughTwenty() {
 
 function evensToTwenty() {
     
-	let  resultado
-  	for (let contador = 2; contador < 22; contador = contador +  2){
-	console.log(contador)
+	let  resultado = []
+  	for (let i = 2; i < 22; i = i + 2){
+	resultado.push(i)
 
 	}
   		return resultado;
@@ -21,22 +21,24 @@ function evensToTwenty() {
 	console.log(evensToTwenty());
 	//2 call function evensToTwenty
 
-function oddsToTwenty() {
-  	let resultado
-	for (let contador = 1; contador < 22; contador = contador + 2){
-	console.log(contador)
-}  
+function oddsToTwenty(numero) {
+  	let resultado = []
+	for (let i = numero; i < 20; i = i + 2){
+		if (i % 2 > 0){
+		resultado.push(i)
+		}	
+	}		  
   		return resultado; 
    
 }
-	console.log(oddsToTwenty())
+	console.log(oddsToTwenty(1))
         //3 call function oddsToTwenty
 
 function multiplesOfFive() {
     
-	  let resultado
-	  for(let contador = 5; contador < 105; contador = contador + 5){
-	  console.log(contador)
+	  let resultado = []
+	  for(let i = 5; i < 105; i = i + 5){
+	  resultado.push(i)
 }
 		return resultado;		
 
@@ -45,13 +47,13 @@ function multiplesOfFive() {
 	//4 call function multiplesOfFive
 
 function squareNumbers(numero) {    
-//function quadradaPerfeita(numero){
-     let resultado    
-     for (let contador = numero; contador < 100; contador++){
-          let raizQuadrada = (Math.sqrt(contador));
+
+     let resultado = []    
+     for (let i = numero; i < 100; i++){
+          let raizQuadrada = (Math.sqrt(i));
           let raizPerfeita = (raizQuadrada ^ 0) === raizQuadrada;
               if ( raizPerfeita === true){
-              console.log( "A raiz quadrada de ", contador, "é",raizQuadrada, " raiz perfeita é = ", raizPerfeita)
+              resultado.push(i)
               }
     }
          return resultado 
@@ -60,9 +62,9 @@ function squareNumbers(numero) {
     	//5 call function squareNumbers
 
 function countingBackwards() {
-  let resultado
-        for (let contador = 20; contador > 0; contador--){
-        console.log(contador)
+  let resultado = []
+        for (let i = 20; i > 0; i--){
+        resultado.push(i)
         }
         return resultado;
 }
@@ -71,42 +73,45 @@ function countingBackwards() {
 	//6 call function countingBackwards
 
 function evenNumbersBackwards() {
-    let resultado
-	for (contador = 20, contador > 0, contador = contador - 2 ){
-	console.log(contador)
-	}
-	return resultado
+	 let resultado = []
+        for (let i = 20; i > 0; i = i - 2){
+        resultado.push(i)
 }
-	console.log(evenNumbersBack)
-	//7 call function evenNumbersBackwards
+                return resultado;
+}
+        console.log(evenNumbersBackwards())
+        //7 call function evenNumbersBackwards
 
-function oddNumbersBackwards() {  
-   let resultado 
-          for(let contador = 21; contador > 0; contador = contador - 2){
-          console.log(contador)
+function oddNumbersBackwards(numero) {  
+     let resultado = []
+          for(let i = numero; i > 0; i = i - 1){
+		if(i % 2 > 0){ 
+		resultado.push(i)
+		}
+
 	}
                 return resultado;
 }
-        console.log(oddNumbersBackwards())
+        console.log(oddNumbersBackwards(20))
 	//8 call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
-      	 let resultado
-          for(let contador = 100; contador > 0; contador = contador - 5){
-          console.log(contador)
+      	 let resultado = []
+          for(let i = 100; i > 0; i = i - 5){
+          resultado.push(i)
         }
                 return resultado;
 }
         console.log(multiplesOfFiveBackwards())
 	//9  call function multiplesOfFiveBackwards
 
-function squareNumbersBackwards(100) {
-    let resultado    
-     for (let contador = numero; contador > 0; contador--){
-          let raizQuadrada = (Math.sqrt(contador));
+function squareNumbersBackwards(numero) {
+    let resultado = []    
+     for (let i = numero; i > 0; i--){
+          let raizQuadrada = (Math.sqrt(i));
           let raizPerfeita = (raizQuadrada ^ 0) === raizQuadrada;
               if ( raizPerfeita === true){
-              console.log( "A raiz quadrada de ", contador, "é",raizQuadrada, " raiz perfeita é = ", raizPerfeita)
+              resultado.push(i)
               }
     }
          return resultado     
