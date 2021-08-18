@@ -49,7 +49,7 @@ function multiplesOfFive() {
 function squareNumbers(numero) {    
 
      let resultado = []    
-     for (let i = numero; i < 100; i++){
+     for (let i = numero; i <= 100; i++){
           let raizQuadrada = (Math.sqrt(i));
           let raizPerfeita = (raizQuadrada ^ 0) === raizQuadrada;
               if ( raizPerfeita === true){
